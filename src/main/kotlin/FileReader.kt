@@ -4,7 +4,7 @@ class FileReader {
     fun getPuzzle1(): List<Int> {
         val url = "src/main/resources/puzzle1.txt"
         var file = File(url).readLines()
-        //println(file);
+
         val inputList = file.map { it.toInt() }
         return inputList;
     }
@@ -65,3 +65,4 @@ class FileReader {
     }
 
 }
+
